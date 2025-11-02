@@ -1,0 +1,38 @@
+.services-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services-container h1 {
+  color: #004d40;
+  margin-bottom: 2rem;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.service-card {
+  background: #b2dfdb;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h2 {
+  color: #004d40;
+  margin-bottom: 0.8rem;
+}
+
+.service-card p {
+  color: #00695c;
+}

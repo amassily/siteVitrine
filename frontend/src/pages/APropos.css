@@ -1,0 +1,19 @@
+.apropos-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: #e0f7fa;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.apropos-container h1 {
+  color: #004d40;
+  margin-bottom: 1rem;
+}
+
+.apropos-container p {
+  color: #00796b;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
